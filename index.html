@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>중국어 단어 플래시카드 (전체 507단어)</title>
+  <title>중국어 단어 플래시카드 (총 798단어)</title>
   <style>
     :root {
       --bg-color: #f1f5f9;
@@ -254,26 +254,28 @@
 <body>
 
   <div class="container">
-    <!-- 챕터 선택 -->
     <select id="chapter-select" class="select-box">
-      <option value="all">전체 단어 통합 (총 507단어)</option>
+      <option value="all">전체 단어 통합 (총 798단어)</option>
       <option value="part1">1. 영양과 미량 영양소 (67단어)</option>
       <option value="part2">2. 전통 예절과 좌식 문화 변천 (85단어)</option>
       <option value="part3">3. 해바라기 굴광·굴열 작용 (51단어)</option>
-      <option value="part4">4. [1번 지문] 발광의 원리 (68단어)</option>
-      <option value="part5">5. [2번 지문] 문어의 생태와 방어 (87단어)</option>
-      <option value="part6">6. [3번 지문] 파괴적 혁신과 조직 (76단어)</option>
-      <option value="part7">7. [4번 지문] 언어와 뇌, 동물의 문자 인식 (73단어)</option>
+      <option value="part4">4. 발광의 원리 (68단어)</option>
+      <option value="part5">5. 문어의 생태와 방어 (87단어)</option>
+      <option value="part6">6. 파괴적 혁신과 조직 (76단어)</option>
+      <option value="part7">7. 언어와 뇌, 동물의 문자 인식 (73단어)</option>
+      <option value="part8">8. 코코넛 포장 혁신 (57단어)</option>
+      <option value="part9">9. 안락함 속의 위기 (55단어)</option>
+      <option value="part10">10. 유머와 발상의 전환 (43단어)</option>
+      <option value="part11">11. 현공사의 건축 미학 (74단어)</option>
+      <option value="part12">12. 요리사의 당근, 달걀, 커피 철학 (62단어)</option>
     </select>
 
-    <!-- 보기 모드 탭 -->
     <div class="filter-tabs">
       <button class="filter-btn active" id="tab-all">전체 보기</button>
       <button class="filter-btn" id="tab-scrap">스크랩 (<span id="scrap-count">0</span>)</button>
       <button class="filter-btn" id="tab-learned">외운 단어 (<span id="learned-count">0</span>)</button>
     </div>
 
-    <!-- 진행 상황 및 세부 옵션 -->
     <div class="sub-bar">
       <span id="counter" style="font-weight: 700;">0 / 0</span>
       <label class="toggle-wrap">
@@ -285,7 +287,6 @@
       </div>
     </div>
 
-    <!-- 플래시카드 영역 -->
     <div class="card-scene" id="card-scene">
       <button class="top-action-btn check-btn" id="check-btn" title="외움 완료 (단축키: V)">✓</button>
       <button class="top-action-btn star-btn" id="star-btn" title="스크랩 (단축키: S)">★</button>
@@ -302,7 +303,6 @@
       </div>
     </div>
 
-    <!-- 컨트롤 버튼 -->
     <div class="controls">
       <button class="btn" id="prev-btn">이전 (←)</button>
       <button class="btn primary" id="flip-btn">뒤집기 (Space)</button>
@@ -525,7 +525,7 @@
       { part: "part3", word: "称做 / 称作", pinyin: "chēngzuò", meaning: "동사. ~라고 부르다, 칭하다" },
       { part: "part3", word: "向热", pinyin: "xiàngrè", meaning: "동/형. 열을 향하다" },
 
-      // 4. [1번 지문] 발광의 원리 (68단어)
+      // 4. 발광의 원리 (68단어)
       { part: "part4", word: "荧光棒", pinyin: "yíngguāngbàng", meaning: "야광봉, 케미컬라이트" },
       { part: "part4", word: "夜光表", pinyin: "yèguāngbiǎo", meaning: "야광시계" },
       { part: "part4", word: "陌生", pinyin: "mòshēng", meaning: "낯설다, 생소하다" },
@@ -595,7 +595,7 @@
       { part: "part4", word: "跑道", pinyin: "pǎodào", meaning: "활주로" },
       { part: "part4", word: "航海", pinyin: "hánghǎi", meaning: "항해" },
 
-      // 5. [2번 지문] 문어의 생태 (87단어)
+      // 5. 문어의 생태와 방어 (87단어)
       { part: "part5", word: "章鱼", pinyin: "zhāngyú", meaning: "문어" },
       { part: "part5", word: "外貌", pinyin: "wàimào", meaning: "겉모습, 외모" },
       { part: "part5", word: "功夫", pinyin: "gōngfu", meaning: "솜씨, 재주, 내공" },
@@ -684,7 +684,7 @@
       { part: "part5", word: "古怪", pinyin: "gǔguài", meaning: "괴상하다, 기괴하다" },
       { part: "part5", word: "称奇", pinyin: "chēngqí", meaning: "기이하게 여기다, 감탄하다" },
 
-      // 6. [3번 지문] 파괴적 혁신 (76단어)
+      // 6. 파괴적 혁신과 조직 (76단어)
       { part: "part6", word: "商界", pinyin: "shāngjiè", meaning: "재계, 상업계" },
       { part: "part6", word: "流行", pinyin: "liúxíng", meaning: "유행하다" },
       { part: "part6", word: "破坏式创新", pinyin: "pòhuàishì chuàngxīn", meaning: "파괴적 혁신" },
@@ -762,83 +762,384 @@
       { part: "part6", word: "权衡", pinyin: "quánhéng", meaning: "저울질하다, 균형을 맞추다" },
       { part: "part6", word: "时刻", pinyin: "shíkè", meaning: "항상, 늘, 매 순간" },
 
-      // 7. [4번 지문] 언어와 뇌, 동물의 문자 인식 (73단어)
-      { part: "part7", word: "谈到", pinyin: "tándào", meaning: "~에 대해 말하다, 언급하다" },
-      { part: "part7", word: "区别", pinyin: "qūbié", meaning: "구별, 차이점" },
-      { part: "part7", word: "文字", pinyin: "wénzì", meaning: "문자, 글자" },
-      { part: "part7", word: "符号", pinyin: "fúhào", meaning: "부호, 기호" },
-      { part: "part7", word: "奇奇怪怪", pinyin: "qíqí-guàiguài", meaning: "울긋불긋 기괴하고 다양한" },
-      { part: "part7", word: "格外", pinyin: "géwài", meaning: "유난히, 특히" },
-      { part: "part7", word: "擅长", pinyin: "shàncháng", meaning: "뛰어나다, 잘하다" },
-      { part: "part7", word: "传情达意", pinyin: "chuán qíng dá yì", meaning: "정과 뜻을 전하다 (생각과 감정을 표현하다)" },
-      { part: "part7", word: "认字", pinyin: "rènzì", meaning: "글자를 알아보다, 글자를 익히다" },
-      { part: "part7", word: "独有", pinyin: "dúyǒu", meaning: "고유의" },
+      // 7. 언어와 뇌, 동물의 문자 인식 (73단어)
+      { part: "part7", word: "谈到", pinyin: "tándào", meaning: "동사. ~에 대해 말하다, 언급하다" },
+      { part: "part7", word: "区别", pinyin: "qūbié", meaning: "명/동. 구별, 차이점" },
+      { part: "part7", word: "文字", pinyin: "wénzì", meaning: "명사. 문자, 글자" },
+      { part: "part7", word: "符号", pinyin: "fúhào", meaning: "명사. 부호, 기호" },
+      { part: "part7", word: "奇奇怪怪", pinyin: "qíqí-guàiguài", meaning: "형용사. 울긋불긋 기괴하고 다양한" },
+      { part: "part7", word: "格外", pinyin: "géwài", meaning: "부사. 유난히, 특히" },
+      { part: "part7", word: "擅长", pinyin: "shàncháng", meaning: "동사. 뛰어나다, 잘하다" },
+      { part: "part7", word: "传情达意", pinyin: "chuán qíng dá yì", meaning: "성어. 생각과 감정을 전달하다" },
+      { part: "part7", word: "认字", pinyin: "rènzì", meaning: "동사. 글자를 알아보다, 글자를 익히다" },
+      { part: "part7", word: "独有", pinyin: "dúyǒu", meaning: "형용사. 고유의" },
       { part: "part7", word: "技能", pinyin: "jìnéng", meaning: "기능, 기술, 능력" },
-      { part: "part7", word: "究竟", pinyin: "jiūjìng", meaning: "도대체, 대체" },
-      { part: "part7", word: "如何", pinyin: "rúhé", meaning: "어떻게" },
+      { part: "part7", word: "究竟", pinyin: "jiūjìng", meaning: "부사. 도대체, 대체" },
+      { part: "part7", word: "如何", pinyin: "rúhé", meaning: "대명사. 어떻게" },
       { part: "part7", word: "掌握", pinyin: "zhǎngwò", meaning: "습득하다, 마스터하다" },
-      { part: "part7", word: "争论不休", pinyin: "zhēnglùn bùxiū", meaning: "논쟁이 끊이지 않다" },
-      { part: "part7", word: "话题", pinyin: "huàtí", meaning: "화제, 이야깃거리" },
-      { part: "part7", word: "影像学", pinyin: "yǐngxiàngxué", meaning: "영상의학" },
-      { part: "part7", word: "表明", pinyin: "biǎomíng", meaning: "분명히 나타내다" },
-      { part: "part7", word: "识字", pinyin: "shízì", meaning: "글자를 알다, 글을 깨치다" },
-      { part: "part7", word: "被试者", pinyin: "bèishìzhě", meaning: "피험자, 피실험자" },
-      { part: "part7", word: "似乎", pinyin: "sìhū", meaning: "마치 ~인 것 같다" },
-      { part: "part7", word: "负责", pinyin: "fùzé", meaning: "책임지다, 담당하다" },
-      { part: "part7", word: "加工", pinyin: "jiāgōng", meaning: "처리하다 (정보 처리)" },
-      { part: "part7", word: "脑区", pinyin: "nǎoqū", meaning: "뇌 영역" },
-      { part: "part7", word: "视觉字形区", pinyin: "shìjué zìxíngqū", meaning: "시각 단어 형태 영역 (VWFA)" },
-      { part: "part7", word: "学者", pinyin: "xuézhě", meaning: "학자" },
-      { part: "part7", word: "原本", pinyin: "yuánběn", meaning: "원래, 본래" },
-      { part: "part7", word: "用来", pinyin: "yònglái", meaning: "~하는 데 쓰이다" },
-      { part: "part7", word: "信号", pinyin: "xìnhào", meaning: "신호" },
-      { part: "part7", word: "赋予", pinyin: "fùyǔ", meaning: "부여하다, 안겨주다" },
+      { part: "part7", word: "争论不休", pinyin: "zhēnglùn bùxiū", meaning: "성어. 논쟁이 끊이지 않다" },
+      { part: "part7", word: "话题", pinyin: "huàtí", meaning: "명사. 화제, 이야깃거리" },
+      { part: "part7", word: "影像学", pinyin: "yǐngxiàngxué", meaning: "명사. 영상의학" },
+      { part: "part7", word: "表明", pinyin: "biǎomíng", meaning: "동사. 분명히 나타내다" },
+      { part: "part7", word: "识字", pinyin: "shízì", meaning: "동사. 글자를 알다, 글을 깨치다" },
+      { part: "part7", word: "被试者", pinyin: "bèishìzhě", meaning: "명사. 피험자, 피실험자" },
+      { part: "part7", word: "似乎", pinyin: "sìhū", meaning: "부사. 마치 ~인 것 같다" },
+      { part: "part7", word: "负责", pinyin: "fùzé", meaning: "동사. 책임지다, 담당하다" },
+      { part: "part7", word: "加工", pinyin: "jiāgōng", meaning: "동사. 처리하다 (정보 처리)" },
+      { part: "part7", word: "脑区", pinyin: "nǎoqū", meaning: "명사. 뇌 영역" },
+      { part: "part7", word: "视觉字形区", pinyin: "shìjué zìxíngqū", meaning: "명사. 시각 단어 형태 영역 (VWFA)" },
+      { part: "part7", word: "学者", pinyin: "xuézhě", meaning: "명사. 학자" },
+      { part: "part7", word: "原本", pinyin: "yuánběn", meaning: "부사. 원래, 본래" },
+      { part: "part7", word: "用来", pinyin: "yònglái", meaning: "동사. ~하는 데 쓰이다" },
+      { part: "part7", word: "信号", pinyin: "xìnhào", meaning: "명사. 신호" },
+      { part: "part7", word: "赋予", pinyin: "fùyǔ", meaning: "동사. 부여하다, 안겨주다" },
       { part: "part7", word: "职责", pinyin: "zhízé", meaning: "직책, 책무" },
-      { part: "part7", word: "老一套", pinyin: "lǎoyítào", meaning: "기존의 방식, 판에 박힌 옛 규칙" },
-      { part: "part7", word: "只不过", pinyin: "zhǐbúguò", meaning: "단지 ~에 불과하다" },
-      { part: "part7", word: "对象", pinyin: "duìxiàng", meaning: "대상" },
-      { part: "part7", word: "理论", pinyin: "lǐlùn", meaning: "이론" },
-      { part: "part7", word: "意味着", pinyin: "yìwèizhe", meaning: "의미하다, 뜻하다" },
-      { part: "part7", word: "至少", pinyin: "zhìshǎo", meaning: "적어도, 최소한" },
-      { part: "part7", word: "阶段", pinyin: "jiēduàn", meaning: "단계" },
-      { part: "part7", word: "辅助", pinyin: "fǔzhù", meaning: "보조하다" },
+      { part: "part7", word: "老一套", pinyin: "lǎoyítào", meaning: "명사. 기존의 방식, 판에 박힌 옛 규칙" },
+      { part: "part7", word: "只不过", pinyin: "zhǐbúguò", meaning: "부사. 단지 ~에 불과하다" },
+      { part: "part7", word: "对象", pinyin: "duìxiàng", meaning: "명사. 대상" },
+      { part: "part7", word: "理论", pinyin: "lǐlùn", meaning: "명사. 이론" },
+      { part: "part7", word: "意味着", pinyin: "yìwèizhe", meaning: "동사. 의미하다, 뜻하다" },
+      { part: "part7", word: "至少", pinyin: "zhìshǎo", meaning: "부사. 적어도, 최소한" },
+      { part: "part7", word: "阶段", pinyin: "jiēduàn", meaning: "명사. 단계" },
+      { part: "part7", word: "辅助", pinyin: "fǔzhù", meaning: "동/명. 보조하다" },
       { part: "part7", word: "类似", pinyin: "lèisì", meaning: "유사하다" },
       { part: "part7", word: "验证", pinyin: "yànzhèng", meaning: "검증하다" },
       { part: "part7", word: "假说", pinyin: "jiǎshuō", meaning: "가설" },
-      { part: "part7", word: "鸽子", pinyin: "gēzi", meaning: "비둘기" },
-      { part: "part7", word: "从中", pinyin: "cóngzhōng", meaning: "그중에서" },
-      { part: "part7", word: "挑选", pinyin: "tiāoxuǎn", meaning: "고르다, 선발하다" },
-      { part: "part7", word: "天赋异禀", pinyin: "tiānfù yìbǐng", meaning: "타고난 천부적 재능이 특출나다" },
-      { part: "part7", word: "作为", pinyin: "zuòwéi", meaning: "~로 삼다" },
-      { part: "part7", word: "证明", pinyin: "zhèngmíng", meaning: "증명하다" },
-      { part: "part7", word: "平均", pinyin: "píngjūn", meaning: "평균의, 평균적으로" },
-      { part: "part7", word: "词汇量", pinyin: "cíhuìliàng", meaning: "어휘량" },
-      { part: "part7", word: "单词", pinyin: "dāncí", meaning: "단어 (낱말)" },
-      { part: "part7", word: "字母", pinyin: "zìmǔ", meaning: "알파벳, 자모" },
-      { part: "part7", word: "替换", pinyin: "tìhuàn", meaning: "바꾸다, 대체하다" },
-      { part: "part7", word: "非词", pinyin: "fēicí", meaning: "비단어 (의미 없는 조합)" },
-      { part: "part7", word: "区分", pinyin: "qūfēn", meaning: "구분하다, 가려내다" },
+      { part: "part7", word: "鸽子", pinyin: "gēzi", meaning: "명사. 비둘기" },
+      { part: "part7", word: "从中", pinyin: "cóngzhōng", meaning: "명사. 그중에서" },
+      { part: "part7", word: "挑选", pinyin: "tiāoxuǎn", meaning: "동사. 고르다, 선발하다" },
+      { part: "part7", word: "天赋异禀", pinyin: "tiānfù yìbǐng", meaning: "성어. 타고난 천부적 재능이 특출나다" },
+      { part: "part7", word: "作为", pinyin: "zuòwéi", meaning: "개/동. ~로 삼다" },
+      { part: "part7", word: "证明", pinyin: "zhèngmíng", meaning: "동/명. 증명하다" },
+      { part: "part7", word: "平均", pinyin: "píngjūn", meaning: "형/부. 평균의, 평균적으로" },
+      { part: "part7", word: "词汇量", pinyin: "cíhuìliàng", meaning: "명사. 어휘량" },
+      { part: "part7", word: "单词", pinyin: "dāncí", meaning: "명사. 단어 (낱말)" },
+      { part: "part7", word: "字母", pinyin: "zìmǔ", meaning: "명사. 알파벳, 자모" },
+      { part: "part7", word: "替换", pinyin: "tìhuàn", meaning: "동사. 바꾸다, 대체하다" },
+      { part: "part7", word: "非词", pinyin: "fēicí", meaning: "명사. 비단어 (의미 없는 조합)" },
+      { part: "part7", word: "区分", pinyin: "qūfēn", meaning: "동사. 구분하다, 가려내다" },
       { part: "part7", word: "采用", pinyin: "cǎiyòng", meaning: "채택하다, 쓰다" },
-      { part: "part7", word: "概念化", pinyin: "gàiniànhuà", meaning: "개념화하다" },
-      { part: "part7", word: "规律", pinyin: "guīlǜ", meaning: "규칙, 법칙" },
-      { part: "part7", word: "类别", pinyin: "lèibié", meaning: "범주, 유형" },
-      { part: "part7", word: "推广", pinyin: "tuīguǎng", meaning: "확대 적용하다" },
-      { part: "part7", word: "比较", pinyin: "bǐjiào", meaning: "비교" },
-      { part: "part7", word: "视觉", pinyin: "shìjué", meaning: "시각" },
+      { part: "part7", word: "概念化", pinyin: "gàiniànhuà", meaning: "동/명. 개념화하다" },
+      { part: "part7", word: "规律", pinyin: "guīlǜ", meaning: "명사. 규칙, 법칙" },
+      { part: "part7", word: "类别", pinyin: "lèibié", meaning: "명사. 범주, 유형" },
+      { part: "part7", word: "推广", pinyin: "tuīguǎng", meaning: "동사. 확대 적용하다" },
+      { part: "part7", word: "比较", pinyin: "bǐjiào", meaning: "동/명. 비교" },
+      { part: "part7", word: "视觉", pinyin: "shìjué", meaning: "명사. 시각" },
       { part: "part7", word: "普遍", pinyin: "pǔbiàn", meaning: "보편적으로" },
       { part: "part7", word: "机制", pinyin: "jīzhì", meaning: "메커니즘, 기제" },
-      { part: "part7", word: "图形", pinyin: "túxíng", meaning: "도형, 그래픽 이미지" },
-      { part: "part7", word: "而已", pinyin: "éryǐ", meaning: "~일 뿐이다" },
-      { part: "part7", word: "严格", pinyin: "yángé", meaning: "엄격하다" },
-      { part: "part7", word: "学会", pinyin: "xuéhuì", meaning: "배워서 익히다, 터득하다" },
-      { part: "part7", word: "字形", pinyin: "zìxíng", meaning: "자형, 글자 형태" },
-      { part: "part7", word: "今后", pinyin: "jīnhòu", meaning: "향후, 앞으로" },
-      { part: "part7", word: "借此", pinyin: "jiècǐ", meaning: "이를 발판 삼아" },
-      { part: "part7", word: "探寻", pinyin: "tànxún", meaning: "탐구하다, 탐색하다" },
-      { part: "part7", word: "来源", pinyin: "láiyuán", meaning: "출처, 근원, 기원" }
+      { part: "part7", word: "图形", pinyin: "túxíng", meaning: "명사. 도형, 그래픽 이미지" },
+      { part: "part7", word: "而已", pinyin: "éryǐ", meaning: "조사. ~일 뿐이다" },
+      { part: "part7", word: "严格", pinyin: "yángé", meaning: "형용사. 엄격하다" },
+      { part: "part7", word: "学会", pinyin: "xuéhuì", meaning: "동사. 배워서 익히다, 터득하다" },
+      { part: "part7", word: "字形", pinyin: "zìxíng", meaning: "명사. 자형, 글자 형태" },
+      { part: "part7", word: "今后", pinyin: "jīnhòu", meaning: "명사. 향후, 앞으로" },
+      { part: "part7", word: "借此", pinyin: "jiècǐ", meaning: "접속사. 이를 발판 삼아" },
+      { part: "part7", word: "探寻", pinyin: "tànxún", meaning: "동사. 탐구하다, 탐색하다" },
+      { part: "part7", word: "来源", pinyin: "láiyuán", meaning: "명사. 출처, 근원, 기원" },
+
+      // 8. 코코넛 포장 혁신 (57단어)
+      { part: "part8", word: "椰子", pinyin: "yēzi", meaning: "명사. 코코넛" },
+      { part: "part8", word: "销售经理", pinyin: "xiāoshòu jīnglǐ", meaning: "명사. 영업 매니저" },
+      { part: "part8", word: "销量", pinyin: "xiāoliàng", meaning: "명사. 판매량" },
+      { part: "part8", word: "大幅", pinyin: "dàfú", meaning: "부사. 대폭, 크게" },
+      { part: "part8", word: "下滑", pinyin: "xiàhuá", meaning: "동사. 하락하다, 감소하다" },
+      { part: "part8", word: "探明", pinyin: "tànmíng", meaning: "동사. 분명히 알아내다, 규명하다" },
+      { part: "part8", word: "调查", pinyin: "diàochá", meaning: "명/동. 조사; 조사하다" },
+      { part: "part8", word: "反馈", pinyin: "fǎnkuì", meaning: "명/동. 피드백, 반응" },
+      { part: "part8", word: "坚硬", pinyin: "jiānyìng", meaning: "형용사. 단단하다, 견고하다" },
+      { part: "part8", word: "壳", pinyin: "ké", meaning: "명사. 껍질, 껍데기" },
+      { part: "part8", word: "哪怕", pinyin: "nǎpà", meaning: "접속사. 설령 ~할지라도" },
+      { part: "part8", word: "力不从心", pinyin: "lì bù cóng xīn", meaning: "성어. 마음은 굴뚝같으나 힘이 미치지 못하다" },
+      { part: "part8", word: "甚至", pinyin: "shènzhì", meaning: "부사. 심지어" },
+      { part: "part8", word: "弄伤", pinyin: "nòngshāng", meaning: "동사. 다치게 하다, 상처를 입다" },
+      { part: "part8", word: "的确", pinyin: "díquè", meaning: "부사. 확실히, 참으로" },
+      { part: "part8", word: "破解", pinyin: "pòjiě", meaning: "동사. 풀다, 해결하다" },
+      { part: "part8", word: "难题", pinyin: "nántí", meaning: "명사. 난제, 어려운 문제" },
+      { part: "part8", word: "易拉罐", pinyin: "yìlāguàn", meaning: "명사. 알루미늄 캔" },
+      { part: "part8", word: "灵机一动", pinyin: "líng jī yí dòng", meaning: "성어. 갑자기 묘안이 떠오르다" },
+      { part: "part8", word: "装上", pinyin: "zhuāngshang", meaning: "동사. 달다, 장착하다" },
+      { part: "part8", word: "拉环", pinyin: "lāhuán", meaning: "명사. 캔 따개 고리" },
+      { part: "part8", word: "岂不是", pinyin: "qǐ bú shì", meaning: "부사. 어찌 ~가 아니겠는가 (반어법)" },
+      { part: "part8", word: "立刻", pinyin: "lìkè", meaning: "부사. 즉각, 즉시" },
+      { part: "part8", word: "赞不绝口", pinyin: "zàn bù jué kǒu", meaning: "성어. 칭찬을 아끼지 않다, 입에 침이 마르도록 칭찬하다" },
+      { part: "part8", word: "命令", pinyin: "mìnglìng", meaning: "동/명. 명령하다; 명령" },
+      { part: "part8", word: "研发部", pinyin: "yánfābù", meaning: "명사. 연구개발부" },
+      { part: "part8", word: "顶部", pinyin: "dǐngbù", meaning: "명사. 상단, 꼭대기" },
+      { part: "part8", word: "凿", pinyin: "záo", meaning: "동사. (구멍을) 뚫다, 파다" },
+      { part: "part8", word: "开口", pinyin: "kāikǒu", meaning: "명사. 구멍, 열린 입구" },
+      { part: "part8", word: "封口", pinyin: "fēngkǒu", meaning: "동사. 입구를 봉하다" },
+      { part: "part8", word: "安装", pinyin: "ānzhuāng", meaning: "동사. 설치하다, 부착하다" },
+      { part: "part8", word: "特制", pinyin: "tèzhì", meaning: "동사. 특수 제작하다, 특제하다" },
+      { part: "part8", word: "诞生", pinyin: "dànshēng", meaning: "동사. 탄생하다" },
+      { part: "part8", word: "仅需", pinyin: "jǐn xū", meaning: "동사. 단지 ~만 필요하다" },
+      { part: "part8", word: "吸管", pinyin: "xīguǎn", meaning: "명사. 빨대" },
+      { part: "part8", word: "轻松", pinyin: "qīngsōng", meaning: "형용사. 가뿐하다, 수월하다" },
+      { part: "part8", word: "享受", pinyin: "xiǎngshòu", meaning: "동사. 누리다, 즐기다" },
+      { part: "part8", word: "果蔬展", pinyin: "guǒshūzhǎn", meaning: "명사. 과일 채소 박람회" },
+      { part: "part8", word: "创新", pinyin: "chuàngxīn", meaning: "명/동. 혁신; 혁신하다" },
+      { part: "part8", word: "延长", pinyin: "yáncháng", meaning: "동사. 연장하다, 늘리다" },
+      { part: "part8", word: "保鲜期", pinyin: "bǎoxiānqī", meaning: "명사. 신선도 유지 기간, 유통기한" },
+      { part: "part8", word: "特意", pinyin: "tèyì", meaning: "부사. 일부러, 특별히" },
+      { part: "part8", word: "一经...立即...", pinyin: "yì jīng... lìjí...", meaning: "구문. ~하자마자 곧바로 ~하다" },
+      { part: "part8", word: "上市", pinyin: "shàngshì", meaning: "동사. (시장에) 출시되다" },
+      { part: "part8", word: "众多", pinyin: "zhòngduō", meaning: "형용사. 수많은, 대다수의" },
+      { part: "part8", word: "追捧", pinyin: "zhuīpěng", meaning: "동사. 열광적으로 지지하다, 환영하다" },
+      { part: "part8", word: "纷纷", pinyin: "fēnfēn", meaning: "부사. 잇달아, 분분히" },
+      { part: "part8", word: "快捷", pinyin: "kuàijié", meaning: "형용사. 빠르고 편리하다" },
+      { part: "part8", word: "体验", pinyin: "tǐyàn", meaning: "명/동. 체험, 경험; 체험하다" },
+      { part: "part8", word: "简直", pinyin: "jiǎnzhí", meaning: "부사. 그야말로, 참으로" },
+      { part: "part8", word: "棒", pinyin: "bàng", meaning: "형용사. 뛰어나다, 훌륭하다, 최고다" },
+      { part: "part8", word: "仅仅", pinyin: "jǐnjǐn", meaning: "부사. 단지, 겨우, 불과" },
+      { part: "part8", word: "翻了一倍", pinyin: "fān le yí bèi", meaning: "표현. 두 배로 늘어나다" },
+      { part: "part8", word: "打开市场", pinyin: "dǎkāi shìchǎng", meaning: "표현. 시장을 개척하다" },
+      { part: "part8", word: "目前", pinyin: "mùqián", meaning: "명사. 현재" },
+      { part: "part8", word: "销往", pinyin: "xiāowǎng", meaning: "동사. ~로 팔려 나가다, ~로 판매되다" },
+      { part: "part8", word: "达", pinyin: "dá", meaning: "동사. 달하다, 도달하다" },
+
+      // 9. 안락함 속의 위기 (55단어)
+      { part: "part9", word: "青黄不接", pinyin: "qīng huáng bù jiē", meaning: "성어. 햇곡식은 안 여물고 묵은 곡식은 떨어진 시기, 보릿고개" },
+      { part: "part9", word: "觅食", pinyin: "mì shí", meaning: "동사. 먹이를 찾다" },
+      { part: "part9", word: "意外", pinyin: "yìwài", meaning: "형/부. 뜻밖의, 의외로" },
+      { part: "part9", word: "盛", pinyin: "chéng", meaning: "동사. (그릇 등에) 담다, 채우다" },
+      { part: "part9", word: "缸", pinyin: "gāng", meaning: "명사. 항아리, 독" },
+      { part: "part9", word: "喜出望外", pinyin: "xǐ chū wàng wài", meaning: "성어. 뜻밖의 기쁨에 어쩔 줄 모르다" },
+      { part: "part9", word: "警惕", pinyin: "jǐngtì", meaning: "동사. 경계하다, 조심하다" },
+      { part: "part9", word: "环顾", pinyin: "huángù", meaning: "동사. 주위를 둘러보다" },
+      { part: "part9", word: "一通", pinyin: "yì tōng", meaning: "양사. 한바탕, 한 차례" },
+      { part: "part9", word: "猛", pinyin: "měng", meaning: "부사. 맹렬하게, 마구" },
+      { part: "part9", word: "倒头就睡", pinyin: "dǎo tóu jiù shuì", meaning: "표현. 머리를 (베개에) 대자마자 잠들다" },
+      { part: "part9", word: "衣食无忧", pinyin: "yī shí wú yōu", meaning: "성어. 입고 먹는 데 걱정이 없다, 의식주 걱정이 없다" },
+      { part: "part9", word: "休闲", pinyin: "xiūxián", meaning: "형/명. 한가롭게 쉬다, 여가" },
+      { part: "part9", word: "是否", pinyin: "shìfǒu", meaning: "부사. ~인지 아닌지" },
+      { part: "part9", word: "思想斗争", pinyin: "sīxiǎng dòuzhēng", meaning: "명사. 사상 투쟁, 내적 갈등" },
+      { part: "part9", word: "抉择", pinyin: "juézé", meaning: "동/명. 선택하다, 결단" },
+      { part: "part9", word: "终究", pinyin: "zhōngjiū", meaning: "부사. 결국, 마침내" },
+      { part: "part9", word: "未", pinyin: "wèi", meaning: "부사. 아직 ~하지 못하다" },
+      { part: "part9", word: "摆脱", pinyin: "bǎituō", meaning: "동사. (구속, 유혹 등에서) 벗어나다, 빠져나오다" },
+      { part: "part9", word: "白花花", pinyin: "báihuāhuā", meaning: "형용사. 눈부시게 새하얀" },
+      { part: "part9", word: "诱惑", pinyin: "yòuhuò", meaning: "명/동. 유혹; 유혹하다" },
+      { part: "part9", word: "直至", pinyin: "zhízhì", meaning: "전치사. ~에 이르기까지" },
+      { part: "part9", word: "见底", pinyin: "jiàn dǐ", meaning: "동사. 바닥을 드러내다" },
+      { part: "part9", word: "就算", pinyin: "jiùsuàn", meaning: "접속사. 설령 ~라 하더라도" },
+      { part: "part9", word: "无能为力", pinyin: "wú néng wéi lì", meaning: "성어. 힘이 미치지 못하다, 어찌할 도리가 없다" },
+      { part: "part9", word: "对于...而言", pinyin: "duìyú...ér yán", meaning: "구문. ~에게 있어서는, ~에 관해서 말하자면" },
+      { part: "part9", word: "试金石", pinyin: "shìjīnshí", meaning: "명사. 시금석 (가치나 능력을 시험해보는 기준)" },
+      { part: "part9", word: "据为己有", pinyin: "jù wéi jǐ yǒu", meaning: "성어. 자기 것으로 만들다, 독차지하다" },
+      { part: "part9", word: "代价", pinyin: "dàijià", meaning: "명사. 대가" },
+      { part: "part9", word: "称为", pinyin: "chēngwéi", meaning: "동사. ~라고 부르다, 칭하다" },
+      { part: "part9", word: "掌握", pinyin: "zhǎngwò", meaning: "동사. 쥐다, 파악하다, 장악하다" },
+      { part: "part9", word: "留恋", pinyin: "liúliàn", meaning: "동사. 미련을 두다, 떠나기 아쉬워하다" },
+      { part: "part9", word: "贪吃", pinyin: "tānchī", meaning: "동사. 식탐을 부리다, 게걸스럽게 먹다" },
+      { part: "part9", word: "做到", pinyin: "zuòdào", meaning: "동사. 해내다, 달성하다" },
+      { part: "part9", word: "明显", pinyin: "míngxiǎn", meaning: "형용사. 뚜렷하다, 명백하다" },
+      { part: "part9", word: "止步", pinyin: "zhǐbù", meaning: "동사. 걸음을 멈추다" },
+      { part: "part9", word: "潜在", pinyin: "qiánzài", meaning: "형용사. 잠재적인" },
+      { part: "part9", word: "危机", pinyin: "wēijī", meaning: "명사. 위기" },
+      { part: "part9", word: "及时", pinyin: "jíshí", meaning: "부사. 제때에, 시기적절하게" },
+      { part: "part9", word: "跨越", pinyin: "kuàyuè", meaning: "동사. 뛰어넘다, 건너다" },
+      { part: "part9", word: "培训", pinyin: "péixùn", meaning: "명/동. 교육, 훈련(하다)" },
+      { part: "part9", word: "内训", pinyin: "nèixùn", meaning: "명사. 사내 교육" },
+      { part: "part9", word: "手段", pinyin: "shǒuduàn", meaning: "명사. 수단, 방법" },
+      { part: "part9", word: "中坚", pinyin: "zhōngjiān", meaning: "명사. 중견, 핵심" },
+      { part: "part9", word: "素质", pinyin: "sùzhì", meaning: "명사. 소양, 자질" },
+      { part: "part9", word: "毕竟", pinyin: "bìjìng", meaning: "부사. 필경, 아무래도 ~니까" },
+      { part: "part9", word: "冲突", pinyin: "chōngtū", meaning: "명/동. 충돌(하다)" },
+      { part: "part9", word: "于是", pinyin: "yúshì", meaning: "접속사. 그리하여, 그래서" },
+      { part: "part9", word: "次要", pinyin: "cìyào", meaning: "형용사. 부차적인, 덜 중요한" },
+      { part: "part9", word: "口号", pinyin: "kǒuhào", meaning: "명사. 구호, 슬로건" },
+      { part: "part9", word: "致使", pinyin: "zhìshǐ", meaning: "동사. ~을 초래하다, ~하게 만들다" },
+      { part: "part9", word: "系统", pinyin: "xìtǒng", meaning: "명/형/부. 시스템, 체계; 체계적인; 체계적으로" },
+      { part: "part9", word: "接触", pinyin: "jiēchù", meaning: "동사. 접촉하다, 접하다" },
+      { part: "part9", word: "眼前", pinyin: "yǎnqián", meaning: "명사. 눈앞, 당장" },
+      { part: "part9", word: "利益", pinyin: "lìyì", meaning: "명사. 이익" },
+
+      // 10. 유머와 발상의 전환 (43단어)
+      { part: "part10", word: "门", pinyin: "mén", meaning: "양사. (학문, 예술, 기술 등을 세는 단위)" },
+      { part: "part10", word: "幽默", pinyin: "yōumò", meaning: "명/형. 유머, 유머러스하다" },
+      { part: "part10", word: "后天", pinyin: "hòutiān", meaning: "명사. 후천(적)" },
+      { part: "part10", word: "并非", pinyin: "bìng fēi", meaning: "부사. 결코 ~이 아니다" },
+      { part: "part10", word: "为...所...", pinyin: "wèi...suǒ...", meaning: "구문. ~에 의해 ~되다 (피동)" },
+      { part: "part10", word: "独有", pinyin: "dúyǒu", meaning: "동/형. 독점하다, 고유의" },
+      { part: "part10", word: "培养", pinyin: "péiyǎng", meaning: "동사. 배양하다, 기르다" },
+      { part: "part10", word: "广博", pinyin: "guǎngbó", meaning: "형용사. 해박하다, (지식이) 넓고 풍부하다" },
+      { part: "part10", word: "在于", pinyin: "zàiyú", meaning: "동사. ~에 달려 있다, ~에 있다" },
+      { part: "part10", word: "见闻", pinyin: "jiànwén", meaning: "명사. 견문, 보고 들은 것" },
+      { part: "part10", word: "得心应手", pinyin: "dé xīn yìng shǒu", meaning: "성어. 마음먹은 대로 순조롭게 되다, 손에 익어 능숙하다" },
+      { part: "part10", word: "左右逢源", pinyin: "zuǒ yòu féng yuán", meaning: "성어. 만사가 순조롭고 막힘이 없다" },
+      { part: "part10", word: "沃土", pinyin: "wòtǔ", meaning: "명사. 옥토, 비옥한 땅" },
+      { part: "part10", word: "产物", pinyin: "chǎnwù", meaning: "명사. 산물" },
+      { part: "part10", word: "古今中外", pinyin: "gǔ jīn zhōng wài", meaning: "성어. 고금중외, 옛날과 지금 및 국내와 국외" },
+      { part: "part10", word: "天南地北", pinyin: "tiān nán dì běi", meaning: "성어. 천남지북, 세상만사(각지의 여러 가지 일)" },
+      { part: "part10", word: "典故", pinyin: "diǎngù", meaning: "명사. 고사(옛 이야기)" },
+      { part: "part10", word: "风土人情", pinyin: "fēng tǔ rén qíng", meaning: "성어. 그 지방 특유의 자연 환경과 풍속, 인심" },
+      { part: "part10", word: "轶事", pinyin: "yìshì", meaning: "명사. 일화 (세상에 잘 알려지지 않은 흥미로운 이야기)" },
+      { part: "part10", word: "趣闻", pinyin: "qùwén", meaning: "명사. 재미있는 소식, 흥미로운 이야기" },
+      { part: "part10", word: "心胸", pinyin: "xīnxiōng", meaning: "명사. 마음씨, 도량" },
+      { part: "part10", word: "豁达", pinyin: "huòdá", meaning: "형용사. 활달하다, 도량이 넓다" },
+      { part: "part10", word: "进而言之", pinyin: "jìn ér yán zhī", meaning: "구문. 한 걸음 더 나아가 말하자면" },
+      { part: "part10", word: "观点", pinyin: "guāndiǎn", meaning: "명사. 관점" },
+      { part: "part10", word: "唉声叹气", pinyin: "āi shēng tàn qì", meaning: "성어. 한숨을 푹푹 쉬다" },
+      { part: "part10", word: "怨天尤人", pinyin: "yuàn tiān yóu rén", meaning: "성어. 하늘을 원망하고 남을 탓하다" },
+      { part: "part10", word: "患得患失", pinyin: "huàn dé huàn shī", meaning: "성어. 득실을 따지며 전전긍긍하다" },
+      { part: "part10", word: "狭隘", pinyin: "xiá'ài", meaning: "형용사. 편협하다, 옹졸하다" },
+      { part: "part10", word: "自私自利", pinyin: "zì sī zì lì", meaning: "성어. 사리사욕만 채우려 하다, 매우 이기적이다" },
+      { part: "part10", word: "占便宜", pinyin: "zhàn pián yi", meaning: "동사. 이득을 보다, 덕을 보다" },
+      { part: "part10", word: "吃苦头", pinyin: "chī kǔ tou", meaning: "동사. 고생하다, 쓰라린 맛을 보다" },
+      { part: "part10", word: "埋怨", pinyin: "mányuàn", meaning: "동사. 원망하다, 불평하다" },
+      { part: "part10", word: "隔绝", pinyin: "géjué", meaning: "동사. 단절시키다, 가로막다" },
+      { part: "part10", word: "持", pinyin: "chí", meaning: "동사. (태도, 의견 등을) 지니다, 가지다" },
+      { part: "part10", word: "思维", pinyin: "sīwéi", meaning: "명/동. 사고(하다), 생각" },
+      { part: "part10", word: "求异", pinyin: "qiú yì", meaning: "동사. 다름(독창성)을 추구하다" },
+      { part: "part10", word: "打破常规", pinyin: "dǎpò chángguī", meaning: "표현. 관례(틀)를 깨다" },
+      { part: "part10", word: "束缚", pinyin: "shùfù", meaning: "명/동. 속박(하다)" },
+      { part: "part10", word: "挣脱", pinyin: "zhèngtuō", meaning: "동사. 뿌리치고 벗어나다, 떨쳐버리다" },
+      { part: "part10", word: "拓展", pinyin: "tuòzhǎn", meaning: "동사. 개척하여 넓히다, 확장하다" },
+      { part: "part10", word: "广阔", pinyin: "guǎngkuò", meaning: "형용사. 넓다, 광활하다" },
+      { part: "part10", word: "言谈", pinyin: "yántán", meaning: "명사. 언담, 말과 대화" },
+      { part: "part10", word: "出人意料", pinyin: "chū rén yì liào", meaning: "성어. 사람들의 예상을 뛰어넘다, 뜻밖이다" },
+
+      // 11. 현공사의 건축 미학 (74단어)
+      { part: "part11", word: "悬空寺", pinyin: "Xuánkōngsì", meaning: "고유명사. 현공사 (공중에 떠 있는 듯한 절)" },
+      { part: "part11", word: "位于", pinyin: "wèiyú", meaning: "동사. ~에 위치하다" },
+      { part: "part11", word: "脚下", pinyin: "jiǎoxià", meaning: "명사. 산기슭, 발아래" },
+      { part: "part11", word: "据说", pinyin: "jùshuō", meaning: "동사. 듣자 하니, 전하는 바에 따르면" },
+      { part: "part11", word: "和尚", pinyin: "héshang", meaning: "명사. 화상, 스님" },
+      { part: "part11", word: "距今", pinyin: "jù jīn", meaning: "표현. 지금으로부터 (~전)" },
+      { part: "part11", word: "陡峻", pinyin: "dǒujùn", meaning: "형용사. 매우 가파르다, 험준하다" },
+      { part: "part11", word: "直立", pinyin: "zhílì", meaning: "동사. 직립하다, 곧게 서다" },
+      { part: "part11", word: "斧劈刀削", pinyin: "fǔ pī dāo xiāo", meaning: "성어. 도끼로 찍고 칼로 깎아낸 듯하다" },
+      { part: "part11", word: "悬崖", pinyin: "xuányá", meaning: "명사. 낭떠러지, 절벽" },
+      { part: "part11", word: "粘贴", pinyin: "zhāntiē", meaning: "동사. 붙이다, 접착하다" },
+      { part: "part11", word: "可望而不可即", pinyin: "kě wàng ér bù kě jí", meaning: "성어. 바라볼 수는 있으나 다가가 미칠 수는 없다" },
+      { part: "part11", word: "但见", pinyin: "dàn jiàn", meaning: "표현. 오직 ~만 보이다" },
+      { part: "part11", word: "层层叠叠", pinyin: "céngcéng-diédié", meaning: "성어. 겹겹이 층을 이룬 모양" },
+      { part: "part11", word: "殿阁", pinyin: "diàngé", meaning: "명사. 전각" },
+      { part: "part11", word: "十数", pinyin: "shí shù", meaning: "수사. 십여, 십몇" },
+      { part: "part11", word: "撑", pinyin: "chēng", meaning: "동사. 지탱하다, 버티다" },
+      { part: "part11", word: "俗语", pinyin: "súyǔ", meaning: "명사. 속담, 옛말" },
+      { part: "part11", word: "起", pinyin: "qǐ", meaning: "동사. (건물을) 세우다, 짓다" },
+      { part: "part11", word: "反其道而行之", pinyin: "fǎn qí dào ér xíng zhī", meaning: "성어. 그 이치와 정반대로 행하다" },
+      { part: "part11", word: "栋", pinyin: "dòng", meaning: "양사. (건물을 세는 단위) 채, 동" },
+      { part: "part11", word: "危楼", pinyin: "wēilóu", meaning: "명사. 위태로운 누각/건물" },
+      { part: "part11", word: "出于", pinyin: "chūyú", meaning: "전치사. ~에서 나오다, ~에서 비롯되다" },
+      { part: "part11", word: "探险", pinyin: "tànxiǎn", meaning: "동/명. 탐험하다" },
+      { part: "part11", word: "冲动", pinyin: "chōngdòng", meaning: "명/동. 충동" },
+      { part: "part11", word: "踏进", pinyin: "tàjìn", meaning: "동사. 발을 들여놓다" },
+      { part: "part11", word: "不约而同", pinyin: "bù yuē ér tóng", meaning: "성어. 약속이나 한 듯이 일치하다" },
+      { part: "part11", word: "脚跟", pinyin: "jiǎogēn", meaning: "명사. 발뒤꿈치" },
+      { part: "part11", word: "屏住呼吸", pinyin: "bǐngzhù hūxī", meaning: "표현. 숨을 멈추다(죽이다)" },
+      { part: "part11", word: "小心翼翼", pinyin: "xiǎoxīn-yìyì", meaning: "성어. 매우 조심스럽다" },
+      { part: "part11", word: "踩", pinyin: "cǎi", meaning: "동사. 밟다" },
+      { part: "part11", word: "生怕", pinyin: "shēngpà", meaning: "동사. 행여나 ~할까 봐 두려워하다" },
+      { part: "part11", word: "塌", pinyin: "tā", meaning: "동사. 무너지다, 붕괴하다" },
+      { part: "part11", word: "侧身", pinyin: "cèshēn", meaning: "동사. 몸을 모로(옆으로) 기울이다" },
+      { part: "part11", word: "探头", pinyin: "tàntóu", meaning: "동사. 고개를 내밀다" },
+      { part: "part11", word: "仰望", pinyin: "yǎngwàng", meaning: "동사. 우러러보다, 쳐다보다" },
+      { part: "part11", word: "凌空", pinyin: "língkōng", meaning: "형/부. 공중에 높이 떠 있다" },
+      { part: "part11", word: "横木", pinyin: "héngmù", meaning: "명사. 가로로 댄 나무" },
+      { part: "part11", word: "扁担", pinyin: "biǎndan", meaning: "명사. 멜대, 빗장" },
+      { part: "part11", word: "铁杉木", pinyin: "tiěshānmù", meaning: "명사. 솔송나무" },
+      { part: "part11", word: "梁", pinyin: "liáng", meaning: "명사. 대들보" },
+      { part: "part11", word: "插", pinyin: "chā", meaning: "동사. 꽂다, 끼워 넣다" },
+      { part: "part11", word: "桐油", pinyin: "tóngyóu", meaning: "명사. 동유, 유동기름" },
+      { part: "part11", word: "浸", pinyin: "jìn", meaning: "동사. 담그다, 적시다, 스며들게 하다" },
+      { part: "part11", word: "白蚁", pinyin: "báiyǐ", meaning: "명사. 흰개미" },
+      { part: "part11", word: "防腐", pinyin: "fángfǔ", meaning: "명/동. 방부(부패 방지)" },
+      { part: "part11", word: "之所以...", pinyin: "zhīsuǒyǐ...", meaning: "접속사. ~한 까닭은, ~한 이유는" },
+      { part: "part11", word: "借助", pinyin: "jièzhù", meaning: "동사. ~의 도움을 빌리다" },
+      { part: "part11", word: "立下", pinyin: "lìxià", meaning: "동사. (공로 등을) 세우다" },
+      { part: "part11", word: "汗马功劳", pinyin: "hàn mǎ gōng láo", meaning: "성어. 큰 공로" },
+      { part: "part11", word: "落点", pinyin: "luòdiǎn", meaning: "명사. 낙하 지점, 닿는(놓이는) 위치" },
+      { part: "part11", word: "精心", pinyin: "jīngxīn", meaning: "부/형. 정성껏, 공들여" },
+      { part: "part11", word: "保证", pinyin: "bǎozhèng", meaning: "동/명. 보증하다, 보장하다" },
+      { part: "part11", word: "承重", pinyin: "chéngzhòng", meaning: "동사. 하중을 견디다, 무게를 지탱하다" },
+      { part: "part11", word: "平衡", pinyin: "pínghéng", meaning: "명/동. 평형, 균형(을 잡다)" },
+      { part: "part11", word: "空无一物", pinyin: "kōng wú yí wù", meaning: "성어. 텅 비어 아무것도 없다" },
+      { part: "part11", word: "无所借力", pinyin: "wú suǒ jièlì", meaning: "구문. 힘을 빌릴 곳이 없다" },
+      { part: "part11", word: "身不由己", pinyin: "shēn bù yóu jǐ", meaning: "성어. 자기 몸을 마음대로 할 수 없다" },
+      { part: "part11", word: "因地制宜", pinyin: "yīn dì zhì yí", meaning: "성어. 각 지역의 조건(지형)에 알맞게 대처하다" },
+      { part: "part11", word: "充分", pinyin: "chōngfèn", meaning: "부/형. 충분히" },
+      { part: "part11", word: "峭壁", pinyin: "qiàobì", meaning: "명사. 가파른 절벽" },
+      { part: "part11", word: "布置", pinyin: "bùzhì", meaning: "동사. 배치하다, 꾸미다" },
+      { part: "part11", word: "建造", pinyin: "jiànzào", meaning: "동사. 건조하다, 건축하다" },
+      { part: "part11", word: "精巧", pinyin: "jīngqiǎo", meaning: "형용사. 정교하다" },
+      { part: "part11", word: "岩壁", pinyin: "yánbì", meaning: "명사. 암벽" },
+      { part: "part11", word: "要空间", pinyin: "yào kōngjiān", meaning: "구문. 공간을 요구하다(확보하다)" },
+      { part: "part11", word: "石窟", pinyin: "shíkū", meaning: "명사. 석굴" },
+      { part: "part11", word: "殿堂", pinyin: "diàntáng", meaning: "명사. 전당, 큰 건물" },
+      { part: "part11", word: "开阔", pinyin: "kāikuò", meaning: "형/동. 탁 트이다, 널찍하다" },
+      { part: "part11", word: "大都", pinyin: "dàdōu", meaning: "부사. 대부분, 대개" },
+      { part: "part11", word: "小巧玲珑", pinyin: "xiǎoqiǎo-línglóng", meaning: "성어. 작고 앙증맞다, 아담하고 정교하다" },
+      { part: "part11", word: "进深", pinyin: "jìnshēn", meaning: "명사. 건물의 깊이, 안길이" },
+      { part: "part11", word: "塑像", pinyin: "sùxiàng", meaning: "명사. 조각상, 소상" },
+      { part: "part11", word: "相对", pinyin: "xiāngduì", meaning: "부/형. 상대적으로; 상대적이다" },
+
+      // 12. 요리사의 당근, 달걀, 커피 철학 (62단어)
+      { part: "part12", word: "满腹牢骚", pinyin: "mǎn fù láo sāo", meaning: "성어. 불평불만이 뱃속에 가득하다" },
+      { part: "part12", word: "抱怨", pinyin: "bàoyuàn", meaning: "동사. 불평하다, 원망하다" },
+      { part: "part12", word: "艰难", pinyin: "jiānnán", meaning: "형용사. 몹시 어렵다, 고단하다" },
+      { part: "part12", word: "应付", pinyin: "yìngfu", meaning: "동사. 대처하다, 감당하다" },
+      { part: "part12", word: "厌倦", pinyin: "yànjuàn", meaning: "동사. 싫증 나다, 지치다" },
+      { part: "part12", word: "厨师", pinyin: "chúshī", meaning: "명사. 요리사, 셰프" },
+      { part: "part12", word: "平静", pinyin: "píngjǐng", meaning: "형용사. 평온하다, 차분하다" },
+      { part: "part12", word: "微微一笑", pinyin: "wēiwēi yí xiào", meaning: "구문. 빙그레 웃다" },
+      { part: "part12", word: "锅", pinyin: "guō", meaning: "명사. 냄비, 솥" },
+      { part: "part12", word: "倒进", pinyin: "dàojìn", meaning: "동사. 따라 붓다" },
+      { part: "part12", word: "胡萝卜", pinyin: "húluóbo", meaning: "명사. 당근" },
+      { part: "part12", word: "火力", pinyin: "huǒlì", meaning: "명사. 화력" },
+      { part: "part12", word: "炉子", pinyin: "lúzi", meaning: "명사. 화로, 스토브, 가스레인지" },
+      { part: "part12", word: "烧", pinyin: "shāo", meaning: "동사. 끓이다, 불을 때다" },
+      { part: "part12", word: "疑惑", pinyin: "yíhuò", meaning: "형/동. 의아하다, 의혹(을 품다)" },
+      { part: "part12", word: "弄不清", pinyin: "nòng bù qīng", meaning: "구문. 파악하지 못하다, 이해하지 못하다" },
+      { part: "part12", word: "用意", pinyin: "yòngyì", meaning: "명사. 의도, 속마음" },
+      { part: "part12", word: "关掉", pinyin: "guāndiào", meaning: "동사. 끄다" },
+      { part: "part12", word: "盘子", pinyin: "pánzi", meaning: "명사. 접시" },
+      { part: "part12", word: "煮好", pinyin: "zhǔ hǎo", meaning: "동사. 다 삶다, 다 끓이다" },
+      { part: "part12", word: "分别", pinyin: "fēnbié", meaning: "부사. 각각, 따로따로" },
+      { part: "part12", word: "指", pinyin: "zhǐ", meaning: "동사. 가리키다" },
+      { part: "part12", word: "当然", pinyin: "dāngrán", meaning: "부사. 당연히" },
+      { part: "part12", word: "不妨", pinyin: "bùfáng", meaning: "부사. ~하는 것도 무방하다, ~해 보아라" },
+      { part: "part12", word: "碰", pinyin: "pèng", meaning: "동사. 만지다, 건드리다" },
+      { part: "part12", word: "软", pinyin: "ruǎn", meaning: "형용사. 부드럽다, 무르다" },
+      { part: "part12", word: "蛋壳", pinyin: "dànké", meaning: "명사. 달걀 껍데기" },
+      { part: "part12", word: "敲破", pinyin: "qiāopò", meaning: "동사. 두드려 깨다" },
+      { part: "part12", word: "剥掉", pinyin: "bāodiào", meaning: "동사. (껍질을) 벗겨내다" },
+      { part: "part12", word: "蛋白", pinyin: "dànbái", meaning: "명사. 흰자, 단백질" },
+      { part: "part12", word: "端起", pinyin: "duān qǐ", meaning: "동사. (두 손으로 반듯하게) 들어 올리다" },
+      { part: "part12", word: "凝固", pinyin: "nínggù", meaning: "동사. 응고하다, 굳다" },
+      { part: "part12", word: "浓郁", pinyin: "nóngyù", meaning: "형용사. (향기 등이) 짙다, 진하다" },
+      { part: "part12", word: "口感", pinyin: "kǒugǎn", meaning: "명사. 식감, 맛" },
+      { part: "part12", word: "反应", pinyin: "fǎnyìng", meaning: "명/동. 반응" },
+      { part: "part12", word: "迥然不同", pinyin: "jiǒng rán bù tóng", meaning: "성어. 확연히 다르다, 판이하다" },
+      { part: "part12", word: "生", pinyin: "shēng", meaning: "형용사. 날것의, 익지 않은" },
+      { part: "part12", word: "烂", pinyin: "làn", meaning: "형용사. 짓무르다, 허물어지다" },
+      { part: "part12", word: "脆弱", pinyin: "cuìruò", meaning: "형용사. 취약하다, 연약하다" },
+      { part: "part12", word: "碎", pinyin: "suì", meaning: "동/형. 부서지다, 깨지다" },
+      { part: "part12", word: "溶进", pinyin: "róngjìn", meaning: "동사. 녹아들다" },
+      { part: "part12", word: "可口", pinyin: "kěkǒu", meaning: "형용사. 입에 맞다, 맛있다" },
+      { part: "part12", word: "接着", pinyin: "jiēzhe", meaning: "부사. 이어서" },
+      { part: "part12", word: "摸不着头脑", pinyin: "mō bù zháo tóu nǎo", meaning: "성어. 영문을 모르다, 갈피를 잡지 못하다" },
+      { part: "part12", word: "怔怔", pinyin: "zhèngzhèng", meaning: "부사. 멍하니, 어리둥절하여" },
+      { part: "part12", word: "代表", pinyin: "dàibiǎo", meaning: "동사. 대표하다, 상징하다" },
+      { part: "part12", word: "困境", pinyin: "kùnjìng", meaning: "명사. 곤경, 난관" },
+      { part: "part12", word: "打败", pinyin: "dǎbài", meaning: "동사. 패배시키다 (被打败: 패배하다, 무너지다)" },
+      { part: "part12", word: "磨练", pinyin: "móliàn", meaning: "명/동. 단련(하다)" },
+      { part: "part12", word: "坚强", pinyin: "jiānqiáng", meaning: "형용사. 굳세다, 강인하다" },
+      { part: "part12", word: "压力", pinyin: "yālì", meaning: "명사. 압력, 스트레스" },
+      { part: "part12", word: "融入", pinyin: "róngrù", meaning: "동사. 융화되다, 녹아들다" },
+      { part: "part12", word: "既然...就...", pinyin: "jìrán...jiù...", meaning: "구문. 기왕 ~한 바에야 ~하다" },
+      { part: "part12", word: "无处", pinyin: "wúchù", meaning: "부사. ~할 곳이 없다" },
+      { part: "part12", word: "躲闪", pinyin: "duǒshǎn", meaning: "동사. 피하다, 숨다" },
+      { part: "part12", word: "面对", pinyin: "miànduì", meaning: "동사. 마주하다, 직면하다" },
+      { part: "part12", word: "羽化", pinyin: "yǔhuà", meaning: "동/명. 우화 (번데기가 날개 달린 곤충이 됨)" },
+      { part: "part12", word: "蝴蝶", pinyin: "húdié", meaning: "명사. 나비" },
+      { part: "part12", word: "不管...都...", pinyin: "bùguǎn...dōu...", meaning: "구문. ~에 관계없이 모두 ~하다" },
+      { part: "part12", word: "一味", pinyin: "yíwèi", meaning: "부사. 맹목적으로, 오로지, 한결같이" },
+      { part: "part12", word: "现状", pinyin: "xiànzhuàng", meaning: "명사. 현상, 현재 상황" },
+      { part: "part12", word: "获得", pinyin: "huòdé", meaning: "동사. 획득하다, 얻다" }
     ];
 
-    // 안전한 저장소 래퍼 (로컬 파일 에러 완전 차단)
+    // 안전한 저장소 래퍼
     const storage = {
       get(key, fallback) {
         try {
@@ -851,11 +1152,12 @@
       }
     };
 
-    let savedList = storage.get('voca_scrap_v3', []);
-    let learnedList = storage.get('voca_learned_v3', []);
-    let chapterProgress = storage.get('voca_progress_v3', {});
-    let hideLearned = storage.get('voca_hide_v3', false);
-    let selectedPart = storage.get('voca_part_v3', 'all');
+    // 기존 버전의 꼬임을 막기 위해 저장소 key 이름을 v5로 변경
+    let savedList = storage.get('voca_scrap_v5', []);
+    let learnedList = storage.get('voca_learned_v5', []);
+    let chapterProgress = storage.get('voca_progress_v5', {});
+    let hideLearned = storage.get('voca_hide_v5', false);
+    let selectedPart = storage.get('voca_part_v5', 'all');
 
     let currentMode = 'all'; // 'all', 'scrap', 'learned'
     let words = [];
@@ -879,16 +1181,15 @@
     const chapterSelect = document.getElementById('chapter-select');
     const hideLearnedToggle = document.getElementById('hide-learned-toggle');
 
-    // UI 컨트롤 상태 초기화
     chapterSelect.value = selectedPart;
     hideLearnedToggle.checked = hideLearned;
 
     function saveState() {
-      storage.set('voca_scrap_v3', savedList);
-      storage.set('voca_learned_v3', learnedList);
-      storage.set('voca_progress_v3', chapterProgress);
-      storage.set('voca_part_v3', selectedPart);
-      storage.set('voca_hide_v3', hideLearned);
+      storage.set('voca_scrap_v5', savedList);
+      storage.set('voca_learned_v5', learnedList);
+      storage.set('voca_progress_v5', chapterProgress);
+      storage.set('voca_part_v5', selectedPart);
+      storage.set('voca_hide_v5', hideLearned);
 
       scrapCountElem.textContent = savedList.length;
       learnedCountElem.textContent = learnedList.length;
@@ -1031,7 +1332,6 @@
       updateCard();
     }
 
-    // 진도 초기화
     document.getElementById('reset-btn').addEventListener('click', () => {
       if (confirm('학습 진도, 외운 단어, 스크랩을 모두 초기화하시겠습니까?')) {
         savedList = [];
@@ -1051,7 +1351,6 @@
       }
     });
 
-    // 카드 영역 클릭 이벤트
     cardScene.addEventListener('click', (e) => {
       if (e.target.closest('.top-action-btn')) return;
       toggleFlip();
@@ -1088,7 +1387,6 @@
     tabScrap.addEventListener('click', () => setTab('scrap'));
     tabLearned.addEventListener('click', () => setTab('learned'));
 
-    // 단축키 조작
     document.addEventListener('keydown', (e) => {
       if (e.code === 'Space') {
         e.preventDefault();
@@ -1104,7 +1402,6 @@
       }
     });
 
-    // 실행 시작
     saveState();
     buildWordList();
     updateCard();
